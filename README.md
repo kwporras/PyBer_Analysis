@@ -1,24 +1,24 @@
 # PyBer_Analysis
 
-Your first assignment will be to perform an exploratory analysis on data in some very large csv files. To aid this process, you will create several types of visualizations to tell a compelling story about the data. You'll write Python scripts using Panda's libraries, the jupyter notebook, and Matplotlib to create a varitey of charts that showcase the relationship between the type of city, and the number of drivers and riders, as well as the percentage of total fares, reiders and drivers by type of city. The analysis and visualizations you produce will help PyBer Improve access to ride-shareing services and determine affordability for underserved neighborhoods.
+## Overview of the analysis:
+The goal is to perform an analysis were we will create several types of charts using python scripts using Panda's, jupyter notebook, and Matplotlib to showcase different relationships. Ultamilty the goal is to improve access to ride-shareing services and determine affordability for underserved neighborhoods. Toward the end of the project V. Isualize ask that Python and Pandas be used to create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, create a multiple-line graph that shows the total weekly fares for each city type. 
 
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+## Results:
+![alt text](https://github.com/kwporras/PyBer_Analysis/blob/6fcdc66395276434e91e8e08afbb87790e0f89da/analysis/summary_dataframe.PNG)
+![alt text](https://github.com/kwporras/PyBer_Analysis/blob/6fcdc66395276434e91e8e08afbb87790e0f89da/analysis/PyBer_fare_summary.png)
 
-This new assignment consists of two technical analysis deliverables and a written report to present your results. You will submit the following:
+### Ride-sharing data differences 
+- Total rides
+  - The total rides for each city type is highest in urban cities
 
-Deliverable 1: A ride-sharing summary DataFrame by city type
-Deliverable 2: A multiple-line chart of total fares for each city type
-Deliverable 3: A written report for the PyBer analysis (README.md)
-
-
-The written analysis has the following:
-
-Overview of the analysis:
-
-The purpose of the new analysis is well defined. (3 pt)
-Results:
-
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
-Summary:
+## Summary:
 
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+
+
+
+##### Resources
+- Data Source: clean_students_complete.csv, missing_grades.csv, schools_complete.csv, students_complete.csv
+- Software: Python 3.9.6, Conda 4.10.3, 
+- Jupyter-notebook 6.4.0
+- Module 5.0.1 & Module 5 Challenge text
